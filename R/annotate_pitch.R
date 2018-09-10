@@ -42,10 +42,10 @@ annotate_pitch <- function(colour = "dimgray",
                               gp = grid::gpar(col  = colour,
                                               fill = fill,
                                               lwd = 2)),
-      xmin = (50-13) * x_scale + x_shift,
-      xmax = (50+13) * x_scale + x_shift,
-      ymin = (50-13) * y_scale + y_shift,
-      ymax = (50+13) * y_scale + y_shift
+      xmin = (50-6) * x_scale + x_shift,
+      xmax = (50+6) * x_scale + x_shift,
+      ymin = (50-6) * y_scale + y_shift,
+      ymax = (50+6) * y_scale + y_shift
     ),
     # Centre spot
     ggplot2::annotate(
