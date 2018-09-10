@@ -42,10 +42,10 @@ annotate_pitch <- function(colour = "dimgray",
                               gp = grid::gpar(col  = colour,
                                               fill = fill,
                                               lwd = 2)),
-      xmin = (50-7) * x_scale + x_shift,
-      xmax = (50+7) * x_scale + x_shift,
-      ymin = (50-7) * y_scale + y_shift,
-      ymax = (50+7) * y_scale + y_shift
+      xmin = (50-13) * x_scale + x_shift,
+      xmax = (50+13) * x_scale + x_shift,
+      ymin = (50-13) * y_scale + y_shift,
+      ymax = (50+13) * y_scale + y_shift
     ),
     # Centre spot
     ggplot2::annotate(
@@ -76,10 +76,10 @@ annotate_pitch <- function(colour = "dimgray",
       ymax = (50+7) * y_scale + y_shift
     ),
     ggplot2::geom_rect(
-      xmin = 83 * x_scale + x_shift,
+      xmin = 84 * x_scale + x_shift,
       xmax = 100 * x_scale + x_shift,
-      ymin = 21.1 * y_scale + y_shift,
-      ymax = 79.9 * y_scale + y_shift,
+      ymin = 20 * y_scale + y_shift,
+      ymax = 80 * y_scale + y_shift,
       colour = colour,
       fill = fill
     ),
@@ -102,9 +102,9 @@ annotate_pitch <- function(colour = "dimgray",
     ),
     ggplot2::geom_rect(
       xmin = 0 * x_scale + x_shift,
-      xmax = 17 * x_scale + x_shift,
-      ymin = 21.1 * y_scale + y_shift,
-      ymax = 79.9 * y_scale + y_shift,
+      xmax = 16 * x_scale + x_shift,
+      ymin = 20 * y_scale + y_shift,
+      ymax = 80 * y_scale + y_shift,
       colour = colour,
       fill = fill
     ),
